@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header{
+    background-color: hsl(0, 0%, 18%);
+  }
+  
+  .searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+    font-size: large;
+  }
+
+.searchstyle{
+    border: 2px solid white;
+
+}
+
+  
+  .search-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    color: rgb(253, 253, 253);
+    
+  }
+  
+  .search-links li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+  }
+  
+  #menu{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+  #messanger{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+  #instagram{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+  #whatsapp{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+  #telegram{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+
+
+  .navbar{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 7%;
+     font-size: large;
+  }
+  
+  .h3-homely{
+    display: inline;
+    background-color:rgb(112, 232, 150);
+    border-radius: 10px;
+  }
+  
+  .h3-homely a{
+    text-decoration: none;
+  }
+  
+  .nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+  }
+  
+  .nav-links li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform 0.1s ease-in-out;
+  }
+
+  .nav-links li a:hover{
+    transform: translateY(-20px);
+    text-shadow: 0px 0px 12px rgba(243, 52, 243, 0.904);
+  }
+  
+  #active:active{
+    color: green;
+    font-weight: bold;
+  
+  }
+  
+  #Account{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+
+  #Account:hover{
+    transform: scale(1);
+    z-index: 1;
+    text-shadow: 0px 0px 12px rgba(243, 52, 243, 0.904);
+  }
+  
+  #Wishlist{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }#Cart{
+    font-size: x-large;
+    text-shadow: 0px 0px 12px orangered;
+  }
+  
+  .cta h5{
+    font-size: 30px;
+    line-height: 4vw;
+    font-weight: 300;
+    margin: 0px 4%;
+    color: white;
+  }
+  
+  .cta h1{
+    font-size: 65px;
+    line-height: 5.2vw;
+    font-weight: 300;
+    margin: 30px 4%;
+    color: white;
+    text-shadow: 0px 0px 12px orangered;
+    
+    
+  }
+  
+  .cta-btn{
+      background: #ff5361;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      margin-top: 20px;
+      display: inline-block;
+      margin: 30px 4%;
+      transition: transform 0.2s;
+  }
+
+  .cta-btn:hover{
+    transform: scale(1.2);
+    z-index: 1;
+  }
+
+
+  span
+  {
+    display: flex;
+    gap: 0px;
+  }
+  #popular-furniture {
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  #popular-furniture h2 {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  #popular-furniture ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+  
+  #popular-furniture ul li {
+    flex-basis: calc(20% - 1rem);
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    width: calc(20% - 1rem); 
+    height: 300px; 
+  }
+  
+  #popular-furniture ul li:hover {
+    transform: scale(1.1);
+    z-index: 1;
+
+  }
+  
+  #popular-furniture ul li a {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-decoration: none;
+    height: 100%; 
+  }
+  
+  #popular-furniture ul li a img {
+    width: 100%;
+    height: auto;
+    height: 225px; 
+    transition: transform 0.1s ease-in-out;
+  }
+  
+  #popular-furniture ul li a:hover img {
+    transform: translateY(-10px);
+    
+  }
+  
+  footer{
+    background-color: hsl(0, 0%, 18%);
+    margin: 5px ;
+    padding: 25px;
+    text-align: center; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+  }
